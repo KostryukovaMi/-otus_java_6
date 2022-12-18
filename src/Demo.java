@@ -21,7 +21,7 @@ public class Demo {
         clientToAccountMap.put(client1, Arrays.asList(account1, account2));
         Client searchClient = new Client("Кострюкова Мария Игоревна", 24);
         List<Account> accounts = clientToAccountMap.get(searchClient);
-        System.out.println(client);
-        System.out.println(accounts);
+        System.out.println("Найденный по аккаунту клиент: " + client);
+        System.out.println("Найденные аккаунты клиента: " + accounts);
     }
 }
